@@ -10,4 +10,4 @@ upload:
 	@git pull origin master
 	@git add clips.json
 	@git commit -m "Updated clips.json"
-        @git push origin master
+  @git push origin master
