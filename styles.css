@@ -1,16 +1,84 @@
 #nav {
-	height: 100px;
+	height: 60px;
 	background-color: #ddd;
 }
 
-.col-md-3 {
-	/*background-color: #ddd;*/
-	/*height: 100px;*/
+#logo {
+	background-color: #404040;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+#hero {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#create {
+	text-align: center;
+	background-color: #404040;
+	border: 1px solid #404040;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 15px 0;
+	outline: 0;
+}
+
+#create:hover {
+	/*text-align: center;*/
+	background-color: #fff;
+	border: 1px solid #404040;
+	color: #404040;
+	transition: 0.2s;
+	/*padding: 10px 20px;*/
+	/*margin: 15px 0;*/
+	/*outline: 0;*/
+}
+
+.container-fluid {
+	margin-top: 15px;
+	width: 85%;
+	border-top: 1px solid #dadada;
+	padding-top: 35px;
+}
+
+#search {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 11px;
+}
+
+#search-box {
+	width: 50%;
+	background-color: #ececec;
+	border: 0;
+	height: 30px;
+	padding-left: 10px;
+	outline: 0;
+}
+
+#submit {
+	height: 30px;
+	padding: 0 20px;
+	background-color: #8c8c8c;
+	border: 0;
+	color: #fff;
+	outline: 0;
+}
+
+.row {
+	margin-top: 20px;
+}
+
+.col-md-2 {
 	border-right: 1px solid #fff;
-	/*padding-right: 1px;*/
 }
 
 img.thumb {
-	/*height: 100px;*/
-	width: 90%;
+	width: 100%;
+}
+
+.title {
+	margin: 0;
 }
