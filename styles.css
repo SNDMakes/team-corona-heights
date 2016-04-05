@@ -4,8 +4,13 @@
 }
 
 .col-md-3 {
-	background-color: #ddd;
-	height: 100px;
+	/*background-color: #ddd;*/
+	/*height: 100px;*/
 	border-right: 1px solid #fff;
 	/*padding-right: 1px;*/
+}
+
+img.thumb {
+	/*height: 100px;*/
+	width: 90%;
 }
