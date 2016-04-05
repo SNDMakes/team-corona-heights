@@ -11,7 +11,7 @@ sheet-to-json:
 thumbnails:
 	@rm -rf img/thumbs/
 	@mkdir img/thumbs/
-	@bash -c 'for f in *.jpg; do convert $f -resize 300 thumbs/$f; done'
+	@cd img && bash -c 'for f in *.jpg; do convert $$f -resize 300 thumbs/$$f; done'
 
 upload:
 	@git pull origin master
