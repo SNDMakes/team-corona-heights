@@ -5,6 +5,7 @@ install:
 
 sheet-to-json:
 	@gsjson 1kuu0_8i1S5hj9hZffnlG5OqQBcxWk6kN6-oqchgfoq4 clips.json
+	@sed -i "" -- 's/publishedUrl/publishedURL/g' clips.json
 
 upload:
 	@git pull origin master
