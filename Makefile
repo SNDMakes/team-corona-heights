@@ -1,4 +1,4 @@
-all: sheet-to-json upload
+all:
 
 install:
 	@npm install -g google-spreadsheet-to-json
@@ -10,4 +10,3 @@ upload:
 	@git pull origin master
 	@git add clips.json
 	@git commit -m "Updated clips.json"
-  @git push origin master
