@@ -6,3 +6,5 @@ Search data is stored in a Google Spreadsheet for editing and moderation. When y
 
 1. Run `make install` the first time to ensure you have dependencies installed
 2. Run `make sheet-to-json` to pull from the Google spreasdsheet and create an updated `clips.json` file
+
+You should see updated data instantly at http://clips.gifs.is/
