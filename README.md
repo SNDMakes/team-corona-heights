@@ -1,5 +1,7 @@
 # Team Corona Heights
 
+See it in action at http://sndmakes.github.io/team-corona-heights/
+
 ## Building search data
 
 Search data is stored in a Google Spreadsheet for editing and moderation. When you're ready to publish updated content, you need to generate updated JSON to power the search:
