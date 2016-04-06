@@ -11,6 +11,10 @@ Search data is stored in a Google Spreadsheet for editing and moderation. When y
 
 You should see updated data instantly at http://clips.gifs.is/
 
+## Test data and logins
+
+Dave owns a Google Doc titled, "Team Corona Heights" that includes this information.
+
 ## Our ideas
 
 ### Members
