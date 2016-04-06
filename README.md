@@ -1,4 +1,6 @@
-# team-corona-heights
+# Team Corona Heights
+
+See it in action at http://sndmakes.github.io/team-corona-heights/
 
 ## Building search data
 
