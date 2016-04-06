@@ -1,4 +1,4 @@
-# team-corona-heights
+# Team Corona Heights
 
 ## Building search data
 
