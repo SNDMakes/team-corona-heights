@@ -127,6 +127,7 @@ select {
 
 img.thumb {
 	width: 100%;
+	height: 161px;
 }
 
 .info {
@@ -135,12 +136,31 @@ img.thumb {
 	-webkit-box-shadow: 1px 4px 12px -4px rgba(163,163,163,0.77);
 	-moz-box-shadow: 1px 4px 12px -4px rgba(163,163,163,0.77);
 	box-shadow: 1px 4px 12px -4px rgba(163,163,163,0.77);
+	height: 175px;
 }
 
 .title {
 	margin: 0;
 	font-family: 'Bebas Neue';
-	font-size: 19px;
+	font-size: 20px;
+}
+
+.name {
+	margin: 0 0 4px 0;
+	font-family: 'Open Sans';
+	font-size: 11px;
+	text-transform: uppercase;
+	/*vertical-align: middle;*/
+}
+
+.org {
+	font-family: 'Open Sans';
+	font-size: 11px;
+}
+
+.tags {
+	font-size: 10px;
+	color: #dadada;
 }
 
 footer {

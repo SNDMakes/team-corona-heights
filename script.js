@@ -25,7 +25,7 @@ $( document ).ready(function() {
     		console.log(data[i].title);
 
 
-    		$('#discover .row').append('<div class="col-md-3"><img class="thumb" src="'+data[i].thumbnailImage+'"><div class="info"><p class="title">' + data[i].title + '</p><p class="org">'+data[i].organization+'</p><p class="name">'+data[i].designers+'</p></div></div>');
+    		$('#discover .row').append('<div class="col-md-3"><img class="thumb" src="'+data[i].thumbnailImage+'"><div class="info"><p class="title">' + data[i].title + '</p><p class="name">'+data[i].designers+'</p><p class="org">'+data[i].organization+'</p><p class="tags">'+data[i]["tags"]+'</p></div></div>');
 		}
 	}
 
