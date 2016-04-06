@@ -20,7 +20,9 @@
 <body>
 
     <div id="nav">
-        <div id="logo"></div>
+
+        <img id="logo" src="img/logo.png">
+
         <div id="nav-items">
             <div class="btn-group">
                 <a href="http://clips.gifs.is/login">
@@ -42,22 +44,37 @@
                 </button>
             </div>
         </div>
-    </div>
 
-    <div id="hero">
-        <h1>Browse our collection of news design stories or    <a href="create/index.html"><span id="create" class="btn">CREATE POST</span></a></h1>
-        
-    </div>
+        <a href="create/index.html"><span id="create" class="btn">CREATE POST</span></a>
+    </div> <!-- end nav -->
+
 
     <div id="content-container">
 
-        <div class="container-fluid">
+        <div id="hero">
+            <h1>Browse our collection of print and online news designs.</h1>
+        
 
-            <div id="search">
-                <input id="search-box" type="text" placeholder="Search keyword or phrase" required>
-                <div id="submit"><i class="fa fa-search fa-lg"></i></div>
+            <div class="container-fluid">
+                <div class="row" id="selects">
+
+                    <div id="filter" class="col-md-6">
+                        <select>
+                          <option value="popular">Most popular</option>
+                          <option value="recent">Newest</option>
+                        </select>
+                    </div>
+
+                    <div id="search" class="col-md-6">
+                        <input id="search-box" type="text" placeholder="Search keyword or phrase" required>
+                        <div id="submit"><i class="fa fa-search fa-lg"></i></div>
+                    </div>
+                </div>
             </div>
 
+        </div>
+
+        <div class="container-fluid" id="discover">
 
             <div class="row">
 
@@ -67,7 +84,6 @@
                         <p class="title">The faces of death row</p>
                         <p class="org">Texas Tribune</p>
                     </div>
-
                 </div>
 
                 <div class="col-md-3">
