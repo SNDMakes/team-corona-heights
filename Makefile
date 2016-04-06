@@ -11,10 +11,12 @@ sheet-to-json:
 thumbnails:
 	@rm -rf img/thumbs/
 	@mkdir img/thumbs/
-	@cd img && bash -c 'for f in *.jpg; do convert $$f -resize 300 thumbs/$$f; done'
+	@cd img && bash -c 'for f in *.jpg; do convert $$f -resize 300x200^ -gravity center -crop 300x200+0+0 +repage thumbs/$$f; done'
 
 upload:
 	@git pull origin master
 	@git add clips.json
 	@git commit -m "Updated clips.json"
+	@git add img
+	@git commit -m "Updated images and thumbnails"
 	@git push origin master
